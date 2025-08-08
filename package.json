@@ -1,0 +1,13 @@
+{
+  "name": "iniciando-projeto",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Comando npm init -y - npm init vai criar o arquivo package.json - -y para responder yes para todas as perguntas sem ser interativo - -responsavel por armazenar as dependencias do projeto",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
