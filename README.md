@@ -74,3 +74,9 @@ Uma requisição http é contém dois principais recursos,
 - URL: Posso ter uma rota com metodos diferentes.
   - GET/users
   - POST/users
+
+## STATUS CODE
+
+Podemos utilizá-los para identificar os tipos de resposta que a nossa aplicação devolve.
+
+- return response.writeHead(201).end(); Status de created
