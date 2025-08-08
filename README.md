@@ -50,5 +50,27 @@ No package podemos criar scripts para executar o comando para rodar o server
     "dev": "node --watch src/server.js"
   },
 ```
+
 ## Executando o server com NPM
+
 - npm run dev
+
+# Rotas de aplicação
+
+Rotas são meios de entrada para as funcionalidades da aplicação
+
+# Requisição HTTP
+
+### no terminal http POST localhost:3333/users
+
+Uma requisição http é contém dois principais recursos,
+
+- Metodo HTTP (GET, POST, PUT, PATCH, DELETE)
+  - GET => Buscar uma informação do back-end.
+  - POST => Criar uma informação no back-end.
+  - PUT => Atualizar um recurso no back-end.
+  - PATCH => Atualizar uma informação especifica de um recurso no back-end.
+  - DELETE => Deletar um recurso do back-end.
+- URL: Posso ter uma rota com metodos diferentes.
+  - GET/users
+  - POST/users
