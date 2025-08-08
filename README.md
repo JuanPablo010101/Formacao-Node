@@ -96,3 +96,8 @@ A ideia principal é que uma Stream permite processar dados aos poucos, sem prec
 # Criando Middleware
 
 Interceptador responsável por capturar a requisição, recebendo sempre como parâmetros request e response.
+
+# Persistencia dos dados com Json
+
+- Utilizando o modulo interno fs para leitura e escrita.
+- Geração de id Unico com RandomUIDD
