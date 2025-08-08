@@ -80,3 +80,19 @@ Uma requisição http é contém dois principais recursos,
 Podemos utilizá-los para identificar os tipos de resposta que a nossa aplicação devolve.
 
 - return response.writeHead(201).end(); Status de created
+
+# O conceito de Streams
+
+A ideia principal é que uma Stream permite processar dados aos poucos, sem precisar ter todo o conteúdo carregado na memória.
+
+- Você não espera ter todo o conteúdo para começar a processá-lo.
+- Os dados chegam em partes (“chunks”) e são consumidos conforme chegam.
+- Isso economiza memória e permite começar o processamento mais cedo.
+
+# Buffers
+
+É um representação de um espaço na memoria, guarda de forma binaria. Mais eficiente e performatica.
+
+# Criando Middleware
+
+Interceptador responsável por capturar a requisição, recebendo sempre como parâmetros request e response.
